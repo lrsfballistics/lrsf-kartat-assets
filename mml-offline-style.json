@@ -5,8 +5,8 @@
     "mml": {
       "type": "raster",
       "tiles": [
-        "https://avoin-karttakuva.maanmittauslaitos.fi/avoin/wmts/1.0.0/maastokartta/default/WGS84_Pseudo-Mercator/{z}/{y}/{x}.png"
-      ],
+  "https://avoin-karttakuva.maanmittauslaitos.fi/avoin/wmts/1.0.0/maastokartta/default/WGS84_Pseudo-Mercator/{z}/{y}/{x}.png"
+],
       "tileSize": 256,
       "minzoom": 0,
       "maxzoom": 18,
