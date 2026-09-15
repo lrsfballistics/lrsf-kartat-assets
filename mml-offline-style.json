@@ -1,0 +1,31 @@
+{
+  "version": 8,
+  "name": "LRSF Kartat MML offline POC",
+  "sources": {
+    "mml": {
+      "type": "raster",
+      "tiles": [
+        "https://avoin-karttakuva.maanmittauslaitos.fi/avoin/wmts/1.0.0/maastokartta/default/WGS84_Pseudo-Mercator/{z}/{y}/{x}.png"
+      ],
+      "tileSize": 256,
+      "minzoom": 0,
+      "maxzoom": 18,
+      "scheme": "xyz",
+      "attribution": "Maanmittauslaitos · Maastokartta · CC BY 4.0"
+    }
+  },
+  "layers": [
+    {
+      "id": "background",
+      "type": "background",
+      "paint": { "background-color": "#111813" }
+    },
+    {
+      "id": "maastokartta",
+      "type": "raster",
+      "source": "mml",
+      "paint": { "raster-fade-duration": 0 }
+    }
+  ]
+}
+
